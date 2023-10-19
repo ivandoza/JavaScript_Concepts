@@ -1,11 +1,10 @@
 function nicknameMap(persons) {
-   var nick;
- for (const i of nicknameMap) {
-  nick = persons(i.age)
- }
- return nick
+  var NickNames = "Nicknames: ";
+  for (i=0 ; i<persons.length ; i++) {
+    NickNames += persons[i].name + "-" + persons[i].age + ", ";
+  }
+  return NickNames;
 }
-
 
 const persons = [
   { name: 'Paul', age: 16 },

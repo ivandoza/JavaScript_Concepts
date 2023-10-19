@@ -4,4 +4,5 @@ const person = {
   age: 25
 }
 
-// Print values of person using Object.keys
+console.log(Object.keys(person))
+console.log(Object.entries(person))
