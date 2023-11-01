@@ -10,7 +10,7 @@ class Person {
 
   set firstName(newVal) {
     if (newVal === "string") {
-      this.firstName = firstName
+      this.firstName = newVal
     } else {
       return "Invalid Name"
     }
@@ -18,7 +18,7 @@ class Person {
 
   set lastNametName(newVal) {
     if (newVal === "string") {
-      this.lastName = this.lastName
+      this.lastName = newVal
     } else {
       return "Invalid Last Name"
     }
@@ -30,7 +30,8 @@ class Person {
     } else if (newVal > 120) {
       this.age = 120
     } else {
-      this.age = newVal}
+      this.age = newVal
+    }
   }
 
   get firstName() {
