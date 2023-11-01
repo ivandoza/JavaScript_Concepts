@@ -2,10 +2,13 @@ let num1 = 10;
 let num2 = 20;
 console.log('Before swap: ', num1, num2); // Before swap: 10 20
 
-// Variable swapping
+// Temporary variable
+
 // let temp = num2;
 // num2 = num1;
 // num1 = temp;
+
+//Destructuring
 
 [num1, num2] = [num2, num1]
 
