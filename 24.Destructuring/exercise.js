@@ -5,6 +5,6 @@ const person = {
   age: 25
 };
 
-
 const { id, firstName: name, lastName: surname, age: old } = person;
+
 console.log(id, name, surname, old);
