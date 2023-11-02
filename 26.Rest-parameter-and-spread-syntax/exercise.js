@@ -1,7 +1,5 @@
 function sum(...nums) {
-    let suma = 0;
-    for (let num of nums) suma += num;
-    return suma;
+    return nums.reduce((a,b) => a + b, 0);
 }
 
 console.log(sum(1, 2, 3, 4, 5));

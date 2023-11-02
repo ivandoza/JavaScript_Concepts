@@ -1,5 +1,7 @@
-function sum(num1, num2, num3) {
-  return num1 + num2 + num3;
+function sum(...nums) {
+  let suma = 0;
+  for (let num of nums) suma += num;
+  return suma;
 }
 
 const numbers = [1, 2, 3];
